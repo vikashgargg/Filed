@@ -9,7 +9,7 @@ This is Test challenge by filed
  
     1. clone the code in a directory
       
-            git clone https://github.com/sahasrara62/filed_audio_file_server.git
+            git clone https://github.com/vikashgargg/Filed.git
     2. go in the directory `cd filed_audio_file_server`
     3. install all project requirements, use command
         `python -m pipenv install -r requirements.txt`
@@ -23,13 +23,13 @@ This is Test challenge by filed
       in postgresql create database "audioserver" and grant permission to user, in postgresql shell run command .
       
        1. create db audioserver;
-       2. GRANT ALL PRIVILEGES ON DATABASE audioserver to "prashant"; # my username
+       2. GRANT ALL PRIVILEGES ON DATABASE audioserver to "Vikash"; # my username
 
 3. create the table in audioserver database
      1. in `.env` file add the data as below
             
             # example
-            # DATABASE_URL="postgresql://prashant:rana@localhost:5432/audioserver"
+            # DATABASE_URL="postgresql://Vikash:rana@localhost:5432/audioserver"
             DATABASE_URL="postgresql://<username>:<password>@<server host>:<port>/<database name>
             SECRET_KEY="this-is-a-sample-secret-key"
             FLASK_ENV="development"
